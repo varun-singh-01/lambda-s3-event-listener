@@ -1,7 +1,7 @@
 # @author Varun Singh
 # @email admin@talkhash.com
-# @create date 2021-06-19 15:45:54
-# @modify date 2021-06-19 15:45:54
+# @create date 2021-07-06 15:45:54
+# @modify date 2021-07-06 15:45:54
 # @desc AWS CDK Lambda + S3 Event Stack
 
 
@@ -26,11 +26,11 @@ class CdkLambdaStack(cdk.Stack):
         # Add IAM user to the group
         user.add_to_group(group)
 
-        # create S3 Bucket
+        # Create S3 Bucket
         bucket = s3.Bucket(self, 'vs-bucket')
         bucket.grant_read_write(user)
 
-        # create a lambda function
+        # Create a lambda function
         lambda_func = _lambda.Function(
             self, 'LambdaListener',
             runtime=_lambda.Runtime.PYTHON_3_8,
@@ -40,7 +40,7 @@ class CdkLambdaStack(cdk.Stack):
                 'BUCKET_NAME': bucket.bucket_name
             })
 
-        # create trigger for Lambda function with image type suffixes
+        # Create trigger for Lambda function with image type suffixes
         notification = s3_notifications.LambdaDestination(lambda_func)
         notification.bind(self, bucket)
         bucket.add_object_created_notification(

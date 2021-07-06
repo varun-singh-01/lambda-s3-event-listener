@@ -25,18 +25,15 @@ def handler(event, context):
     }
 
     try:
-        # Write results to DynamoDB
-        dynamodb.put_item(TableName=(os.environ['TABLE_NAME']),
-                          Item={
-            'image_name': {'S': key}
-        }
-        )
+        # Log the event
+        print("[LambdaListenet] New file with name {} created in bucket {}".formay(
+            key, bucket_name))
 
         response = {'status': 'success', 'key': key}
         return response
 
     except Exception as e:
         print(e)
-        print("[Error] :: Error processing object {} from bucket {}. ".format(
+        print("[Error] :: Error processing file {} from bucket {}. ".format(
             key, bucket_name))
         raise e
