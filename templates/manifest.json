@@ -1,0 +1,435 @@
+{
+  "version": "12.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "CdkLambdaStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CdkLambdaStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/CdkLambdaStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.ce31b798eeca65afa86aa8381392785d2baaf4b0a03492f1dc622f5e695d9e7c",
+              "id": "ce31b798eeca65afa86aa8381392785d2baaf4b0a03492f1dc622f5e695d9e7c",
+              "packaging": "zip",
+              "sourceHash": "ce31b798eeca65afa86aa8381392785d2baaf4b0a03492f1dc622f5e695d9e7c",
+              "s3BucketParameter": "AssetParametersce31b798eeca65afa86aa8381392785d2baaf4b0a03492f1dc622f5e695d9e7cS3Bucket30EE631E",
+              "s3KeyParameter": "AssetParametersce31b798eeca65afa86aa8381392785d2baaf4b0a03492f1dc622f5e695d9e7cS3VersionKey709374C0",
+              "artifactHashParameter": "AssetParametersce31b798eeca65afa86aa8381392785d2baaf4b0a03492f1dc622f5e695d9e7cArtifactHash13898255"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.js:405:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:175:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:83:25)",
+              "Stack.addFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack.js:410:33)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:87:31)",
+              "new Asset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:40:44)",
+              "AssetCode.bind (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:258:26)",
+              "new Function (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:97:33)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/VSGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VSGroup0ADB954A",
+            "trace": [
+              "new Group (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-iam\\lib\\group.js:106:23)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/VSUser/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VSUser74D262F3",
+            "trace": [
+              "new User (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-iam\\lib\\user.js:52:22)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/VSUser/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VSUserDefaultPolicyE7542267",
+            "trace": [
+              "new Policy (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.js:56:26)",
+              "User.addToPrincipalPolicy (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-iam\\lib\\user.js:186:34)",
+              "Function.addToPrincipal (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.js:90:65)",
+              "Function.addToPrincipalOrResource (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.js:45:30)",
+              "Bucket.grant (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:380:31)",
+              "Bucket.grantReadWrite (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:320:21)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:107",
+              "Kernel._ensureSync (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8563:28)",
+              "Kernel.invoke (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:34)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/vs-bucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "vsbucket6F54FE73",
+            "trace": [
+              "new Bucket (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:521:26)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/vs-bucket/Notifications/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "vsbucketNotifications8D890D38",
+            "trace": [
+              "BucketNotifications.createResourceOnce (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:86:29)",
+              "BucketNotifications.addNotification (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:42:31)",
+              "Bucket.addEventNotification (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:691:28)",
+              "Bucket.addObjectCreatedNotification (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:704:21)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:107",
+              "Kernel._ensureSync (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8563:28)",
+              "Kernel.invoke (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:34)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/vs-bucket/AllowBucketNotificationsToCdkLambdaStackLambdaEventWriterD785A3F7": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "vsbucketAllowBucketNotificationsToCdkLambdaStackLambdaEventWriterD785A3F7B4151E01",
+            "trace": [
+              "Function.addPermission (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:42:9)",
+              "LambdaDestination.bind (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3-notifications\\lib\\lambda.js:40:21)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:107",
+              "Kernel._ensureSync (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8563:28)",
+              "Kernel.invoke (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:34)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/Pictures/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Pictures8CDD258B",
+            "trace": [
+              "new Table (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:456:22)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/LambdaEventWriter/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LambdaEventWriterServiceRole6AEED7E0",
+            "trace": [
+              "new Role (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:72:22)",
+              "new Function (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:79:35)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/LambdaEventWriter/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LambdaEventWriterServiceRoleDefaultPolicy81FD8A73",
+            "trace": [
+              "new Policy (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.js:56:26)",
+              "Role.addToPrincipalPolicy (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:205:34)",
+              "Function.addToPrincipal (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.js:90:65)",
+              "Table.combinedGrant (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:384:35)",
+              "Table.grantReadWriteData (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.js:173:21)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:107",
+              "Kernel._ensureSync (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8563:28)",
+              "Kernel.invoke (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:34)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/LambdaEventWriter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LambdaEventWriter29151A8E",
+            "trace": [
+              "new Function (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:135:26)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/AssetParameters/ce31b798eeca65afa86aa8381392785d2baaf4b0a03492f1dc622f5e695d9e7c/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersce31b798eeca65afa86aa8381392785d2baaf4b0a03492f1dc622f5e695d9e7cS3Bucket30EE631E",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:83:25)",
+              "Stack.addFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack.js:410:33)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:87:31)",
+              "new Asset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:40:44)",
+              "AssetCode.bind (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:258:26)",
+              "new Function (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:97:33)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/AssetParameters/ce31b798eeca65afa86aa8381392785d2baaf4b0a03492f1dc622f5e695d9e7c/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersce31b798eeca65afa86aa8381392785d2baaf4b0a03492f1dc622f5e695d9e7cS3VersionKey709374C0",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:83:25)",
+              "Stack.addFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack.js:410:33)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:87:31)",
+              "new Asset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:40:44)",
+              "AssetCode.bind (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:258:26)",
+              "new Function (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:97:33)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/AssetParameters/ce31b798eeca65afa86aa8381392785d2baaf4b0a03492f1dc622f5e695d9e7c/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersce31b798eeca65afa86aa8381392785d2baaf4b0a03492f1dc622f5e695d9e7cArtifactHash13898255",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:162:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:83:25)",
+              "Stack.addFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack.js:410:33)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:87:31)",
+              "new Asset (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:40:44)",
+              "AssetCode.bind (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:258:26)",
+              "new Function (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:97:33)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "Kernel._create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8154:34)",
+              "Kernel.create (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7895:29)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleB6FB88EC",
+            "trace": [
+              "new Role (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:72:22)",
+              "new NotificationsResourceHandler (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.js:29:22)",
+              "Function.singleton (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.js:78:22)",
+              "BucketNotifications.createResourceOnce (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:85:94)",
+              "BucketNotifications.addNotification (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:42:31)",
+              "Bucket.addEventNotification (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:691:28)",
+              "Bucket.addObjectCreatedNotification (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:704:21)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:107",
+              "Kernel._ensureSync (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8563:28)",
+              "Kernel.invoke (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:34)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleDefaultPolicy2CF63D36",
+            "trace": [
+              "new Policy (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.js:56:26)",
+              "Role.addToPrincipalPolicy (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:205:34)",
+              "Role.addToPolicy (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:217:21)",
+              "new NotificationsResourceHandler (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.js:36:14)",
+              "Function.singleton (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.js:78:22)",
+              "BucketNotifications.createResourceOnce (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:85:94)",
+              "BucketNotifications.addNotification (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:42:31)",
+              "Bucket.addEventNotification (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:691:28)",
+              "Bucket.addObjectCreatedNotification (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:704:21)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:107",
+              "Kernel._ensureSync (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8563:28)",
+              "Kernel.invoke (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:34)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BucketNotificationsHandler050a0587b7544547bf325f094a3db8347ECC3691",
+            "trace": [
+              "new NotificationsResourceHandler (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.js:52:26)",
+              "Function.singleton (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.js:78:22)",
+              "BucketNotifications.createResourceOnce (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:85:94)",
+              "BucketNotifications.addNotification (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:42:31)",
+              "Bucket.addEventNotification (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:691:28)",
+              "Bucket.addObjectCreatedNotification (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:704:21)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:107",
+              "Kernel._ensureSync (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8563:28)",
+              "Kernel.invoke (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:34)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:9",
+              "visit (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:185:9)",
+              "visit (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:182:9)",
+              "injectMetadataResources (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:117:5)",
+              "Object.synthesize (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:107",
+              "Kernel._ensureSync (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8563:28)",
+              "Kernel.invoke (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:34)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/CdkLambdaStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:9",
+              "visit (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:185:9)",
+              "visit (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:182:9)",
+              "injectMetadataResources (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:117:5)",
+              "Object.synthesize (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\varun\\AppData\\Local\\Temp\\jsii-kernel-Xiuia0\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8582:24)",
+              "C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:107",
+              "Kernel._ensureSync (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:8563:28)",
+              "Kernel.invoke (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:7970:34)",
+              "KernelHost.processRequest (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9479:36)",
+              "KernelHost.run (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9442:22)",
+              "Immediate._onImmediate (C:\\Users\\varun\\AppData\\Local\\Temp\\tmpjyeyg_l1\\lib\\program.js:9443:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "CdkLambdaStack"
+    }
+  }
+}
