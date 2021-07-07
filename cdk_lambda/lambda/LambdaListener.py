@@ -7,26 +7,17 @@
 
 import boto3
 import os
-import json
 
 s3 = boto3.client('s3')
-dynamodb = boto3.client('dynamodb')
 
 
 def handler(event, context):
     bucket_name = (os.environ['BUCKET_NAME'])
     key = event['Records'][0]['s3']['object']['key']
-    size = event['Records'][0]['s3']['object']['size']
-    image = {
-        'S3Object': {
-            'Bucket': bucket_name,
-            'Name': key
-        }
-    }
 
     try:
         # Log the event
-        print("[LambdaListenet] New file with name {} created in bucket {}".formay(
+        print("[LambdaListenet] New file with name {} created in bucket {}".format(
             key, bucket_name))
 
         response = {'status': 'success', 'key': key}
