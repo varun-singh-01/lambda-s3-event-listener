@@ -1,7 +1,7 @@
 
 # Welcome to your CDK Python project!
 
-This is a blank project for Python development with CDK.
+This is a serverless Lambda + S3 Events project for Python development with CDK.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
